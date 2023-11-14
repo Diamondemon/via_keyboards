@@ -1,25 +1,84 @@
 {
-  "name": "Keychron K10 Pro ISO RGB",
+  "name": "Keychron K10 Pro ISO White",
   "vendorId": "0x3434",
-  "productId": "0x02a1",
+  "productId": "0x02A4",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
   "customKeycodes": [
-    {"name": "Left Option", "title": "Left Option", "shortName": "LOpt"},
-    {"name": "Right Option", "title": "Right Option", "shortName": "ROpt"},
-    {"name": "Left Cmd", "title": "Left Command", "shortName": "LCmd"},
-    {"name": "Right Cmd", "title": "Right Command", "shortName": "RCmd"},
-    {"name": "Misson Control", "title": "Misson Control, availabe in macOS", "shortName": "MCtrl"},
-    {"name": "Launch pad", "title": "Launch pad, availabe in macOS", "shortName": "LPad"},
-    {"name": "Task View", "title": "Task View in Windows", "shortName": "Task"},
-    {"name": "File Explorer", "title": "File Explorer in Windows", "shortName": "File"},
-    {"name": "Screen shot", "title": "Screenshot in macOS", "shortName": "SShot"},
-    {"name": "Cortana", "title": "Cortana in Windows", "shortName": "Cortana"},
-    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
-    {"name": "Bluetooth Host 1", "title": "Bluetooth Host 1", "shortName": "BT1"},
-    {"name": "Bluetooth Host 2", "title": "Bluetooth Host 2", "shortName": "BT2"},
-    {"name": "Bluetooth Host 3", "title": "Bluetooth Host 3", "shortName": "BT3"},
-    {"name": "Battery Level", "title": "Show battery level", "shortName": "Batt"}
+    {
+      "name": "Left Option",
+      "title": "Left Option in macOS",
+      "shortName": "LOpt"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option in macOS",
+      "shortName": "ROpt"
+    },
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "LCmd"
+    },
+    {
+      "name": "Right Cmd",
+      "title": "Right Command in macOS",
+      "shortName": "RCmd"
+    },
+    {
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "MCtrl"
+    },
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "LPad"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task"
+    },
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in windows",
+      "shortName": "File"
+    },
+    {
+      "name": "Screen Shot",
+      "title": "Screenshot in macOS",
+      "shortName": "SShot"
+    },
+    {
+      "name": "Cortana",
+      "title": "Cortana in windows",
+      "shortName": "Cortana"
+    },
+    {
+      "name": "Siri",
+      "title": "Siri in macOS",
+      "shortName": "Siri"
+    },
+    {
+      "name": "Bluetooth Host 1",
+      "title": "Bluetooth Host 1",
+      "shortName": "BTH1"
+    },
+    {
+      "name": "Bluetooth Host 2",
+      "title": "Bluetooth Host 2",
+      "shortName": "BTH2"
+    },
+    {
+      "name": "Bluetooth Host 3",
+      "title": "Bluetooth Host 3",
+      "shortName": "BTH3"
+    },
+    {
+      "name": "Battery Level",
+      "title": "Show battery level",
+      "shortName": "Batt"
+    }
   ],
   "matrix": {"rows": 6, "cols": 21},
   "layouts": {
@@ -91,13 +150,13 @@
         "1,11",
         "1,12",
         {
-          "w": 2,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 2
         },
         "1,13",
         {
           "x": 0.25
-          },
+        },
         "1,14",
         "1,15",
         "1,16",
@@ -112,8 +171,8 @@
       ],
       [
         {
-          "w": 1.5,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.5
         },
         "2,0",
         {
@@ -133,7 +192,7 @@
         "2,12",
         {
           "x": 0.25,
-          "c": "#aaaaaa",
+          "c": "#777777",
           "w": 1.25,
           "h": 2,
           "w2": 1.5,
@@ -162,8 +221,8 @@
       ],
       [
         {
-          "w": 1.75,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.75
         },
         "3,0",
         {
@@ -180,7 +239,10 @@
         "3,9",
         "3,10",
         "3,11",
-        "3,12",
+        {
+          "c": "#aaaaaa"
+        },
+        "3,13",
         {
           "x": 4.75,
           "c": "#cccccc"
@@ -191,14 +253,14 @@
       ],
       [
         {
-          "w": 1.25,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.25
         },
         "4,0",
+        "4,1",
         {
           "c": "#cccccc"
         },
-        "4,1",
         "4,2",
         "4,3",
         "4,4",
@@ -210,17 +272,18 @@
         "4,10",
         "4,11",
         {
-          "w": 2.75,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 2.75
         },
         "4,13",
         {
           "x": 1.25,
-          "c": "#cccccc"
+          "c": "#777777"
         },
         "4,15",
         {
-          "x": 1.25
+          "x": 1.25,
+          "c": "#cccccc"
         },
         "4,17",
         "4,18",
@@ -229,11 +292,11 @@
           "h": 2
         },
         "4,20"
-        ],
+      ],
       [
         {
-          "w": 1.25,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.25
         },
         "5,0",
         {
@@ -245,13 +308,13 @@
         },
         "5,2",
         {
-          "w": 6.25,
-          "c": "#cccccc"
+          "c": "#cccccc",
+          "w": 6.25
         },
         "5,6",
         {
-          "w": 1.25,
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.25
         },
         "5,10",
         {
@@ -263,19 +326,19 @@
         },
         "5,12",
         {
-          "w": 1.25,
-          "c": "#aaaaaa"
+          "w": 1.25
         },
         "5,13",
         {
           "x": 0.25,
-          "c": "#cccccc"
+          "c": "#777777"
         },
         "5,14",
         "5,15",
         "5,16",
         {
           "x": 0.25,
+          "c": "#cccccc",
           "w": 2
         },
         "5,17",
